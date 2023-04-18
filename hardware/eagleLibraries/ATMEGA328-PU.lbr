@@ -1,0 +1,197 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DIP787W46P254L3467H508Q28">
+<circle x="-5.1" y="16.51" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.1" y="16.51" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-3.6195" y1="17.335" x2="3.6195" y2="17.335" width="0.127" layer="51"/>
+<wire x1="-3.6195" y1="-17.335" x2="3.6195" y2="-17.335" width="0.127" layer="51"/>
+<wire x1="-3.6195" y1="17.455" x2="3.6195" y2="17.455" width="0.127" layer="21"/>
+<wire x1="-3.6195" y1="-17.455" x2="3.6195" y2="-17.455" width="0.127" layer="21"/>
+<wire x1="-3.6195" y1="17.335" x2="-3.6195" y2="-17.335" width="0.127" layer="51"/>
+<wire x1="3.6195" y1="17.335" x2="3.6195" y2="-17.335" width="0.127" layer="51"/>
+<wire x1="4.812" y1="17.585" x2="-4.812" y2="17.585" width="0.05" layer="39"/>
+<wire x1="4.812" y1="-17.585" x2="-4.812" y2="-17.585" width="0.05" layer="39"/>
+<wire x1="4.812" y1="17.585" x2="4.812" y2="-17.585" width="0.05" layer="39"/>
+<wire x1="-4.812" y1="17.585" x2="-4.812" y2="-17.585" width="0.05" layer="39"/>
+<text x="-3.5" y="-18" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.5" y="18" size="1.27" layer="25">&gt;NAME</text>
+<pad name="1" x="-3.937" y="16.51" drill="0.83" diameter="1.25" shape="square"/>
+<pad name="2" x="-3.937" y="13.97" drill="0.83" diameter="1.25"/>
+<pad name="3" x="-3.937" y="11.43" drill="0.83" diameter="1.25"/>
+<pad name="4" x="-3.937" y="8.89" drill="0.83" diameter="1.25"/>
+<pad name="5" x="-3.937" y="6.35" drill="0.83" diameter="1.25"/>
+<pad name="6" x="-3.937" y="3.81" drill="0.83" diameter="1.25"/>
+<pad name="7" x="-3.937" y="1.27" drill="0.83" diameter="1.25"/>
+<pad name="8" x="-3.937" y="-1.27" drill="0.83" diameter="1.25"/>
+<pad name="9" x="-3.937" y="-3.81" drill="0.83" diameter="1.25"/>
+<pad name="10" x="-3.937" y="-6.35" drill="0.83" diameter="1.25"/>
+<pad name="11" x="-3.937" y="-8.89" drill="0.83" diameter="1.25"/>
+<pad name="12" x="-3.937" y="-11.43" drill="0.83" diameter="1.25"/>
+<pad name="13" x="-3.937" y="-13.97" drill="0.83" diameter="1.25"/>
+<pad name="14" x="-3.937" y="-16.51" drill="0.83" diameter="1.25"/>
+<pad name="15" x="3.937" y="-16.51" drill="0.83" diameter="1.25"/>
+<pad name="16" x="3.937" y="-13.97" drill="0.83" diameter="1.25"/>
+<pad name="17" x="3.937" y="-11.43" drill="0.83" diameter="1.25"/>
+<pad name="18" x="3.937" y="-8.89" drill="0.83" diameter="1.25"/>
+<pad name="19" x="3.937" y="-6.35" drill="0.83" diameter="1.25"/>
+<pad name="20" x="3.937" y="-3.81" drill="0.83" diameter="1.25"/>
+<pad name="21" x="3.937" y="-1.27" drill="0.83" diameter="1.25"/>
+<pad name="22" x="3.937" y="1.27" drill="0.83" diameter="1.25"/>
+<pad name="23" x="3.937" y="3.81" drill="0.83" diameter="1.25"/>
+<pad name="24" x="3.937" y="6.35" drill="0.83" diameter="1.25"/>
+<pad name="25" x="3.937" y="8.89" drill="0.83" diameter="1.25"/>
+<pad name="26" x="3.937" y="11.43" drill="0.83" diameter="1.25"/>
+<pad name="27" x="3.937" y="13.97" drill="0.83" diameter="1.25"/>
+<pad name="28" x="3.937" y="16.51" drill="0.83" diameter="1.25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ATMEGA328-PU">
+<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.254" layer="94"/>
+<wire x1="38.1" y1="25.4" x2="38.1" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-27.94" x2="-38.1" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-27.94" x2="-38.1" y2="25.4" width="0.254" layer="94"/>
+<text x="-38.1" y="26.289" size="1.778" layer="95">&gt;NAME</text>
+<text x="-38.1" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PB5(SCK/PCINT5)" x="-43.18" y="-7.62" length="middle"/>
+<pin name="PB7(PCINT7/XTAL2/TOSC2)" x="-43.18" y="-15.24" length="middle"/>
+<pin name="PB6(PCINT6/XTAL1/TOSC1)" x="-43.18" y="-12.7" length="middle"/>
+<pin name="VCC" x="43.18" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="43.18" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="AREF" x="-43.18" y="15.24" length="middle" direction="in"/>
+<pin name="AVCC" x="43.18" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB4(MISO/PCINT4)" x="-43.18" y="-5.08" length="middle"/>
+<pin name="PB3(MOSI/OC2A/PCINT3)" x="-43.18" y="-2.54" length="middle"/>
+<pin name="PB2(!SS!/OC1B/PCINT2)" x="-43.18" y="0" length="middle"/>
+<pin name="PB1(OC1A/PCINT1)" x="-43.18" y="2.54" length="middle"/>
+<pin name="PB0(PCINT0/CLKO/ICP1)" x="-43.18" y="5.08" length="middle"/>
+<pin name="PD7(PCINT23/AIN1)" x="43.18" y="-20.32" length="middle" rot="R180"/>
+<pin name="PD6(PCINT22/OC0A/AIN0)" x="43.18" y="-17.78" length="middle" rot="R180"/>
+<pin name="PD5(PCINT21/OC0B/T1)" x="43.18" y="-15.24" length="middle" rot="R180"/>
+<pin name="PD4(PCINT20/XCK/T0)" x="43.18" y="-12.7" length="middle" rot="R180"/>
+<pin name="PD3(PCINT19/OC2B/INT1)" x="43.18" y="-10.16" length="middle" rot="R180"/>
+<pin name="PD2(PCINT18/INT0)" x="43.18" y="-7.62" length="middle" rot="R180"/>
+<pin name="PD1(PCINT17/TXD)" x="43.18" y="-5.08" length="middle" rot="R180"/>
+<pin name="PD0(PCINT16/RXD)" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="PC5(ADC5/SCL/PCINT13)" x="43.18" y="2.54" length="middle" rot="R180"/>
+<pin name="PC4(ADC4/SDA/PCINT12)" x="43.18" y="5.08" length="middle" rot="R180"/>
+<pin name="PC3(ADC3/PCINT11)" x="43.18" y="7.62" length="middle" rot="R180"/>
+<pin name="PC2(ADC2/PCINT10)" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="PC1(ADC1/PCINT9)" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="PC0(ADC0/PCINT8)" x="43.18" y="15.24" length="middle" rot="R180"/>
+<pin name="PC6(PCINT14/!RESET!)" x="-43.18" y="10.16" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATMEGA328-PU" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/ATMEGA328PU/Microchip%20Technology/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA328-PU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP787W46P254L3467H508Q28">
+<connects>
+<connect gate="G$1" pin="AREF" pad="21"/>
+<connect gate="G$1" pin="AVCC" pad="20"/>
+<connect gate="G$1" pin="GND" pad="8 22"/>
+<connect gate="G$1" pin="PB0(PCINT0/CLKO/ICP1)" pad="14"/>
+<connect gate="G$1" pin="PB1(OC1A/PCINT1)" pad="15"/>
+<connect gate="G$1" pin="PB2(!SS!/OC1B/PCINT2)" pad="16"/>
+<connect gate="G$1" pin="PB3(MOSI/OC2A/PCINT3)" pad="17"/>
+<connect gate="G$1" pin="PB4(MISO/PCINT4)" pad="18"/>
+<connect gate="G$1" pin="PB5(SCK/PCINT5)" pad="19"/>
+<connect gate="G$1" pin="PB6(PCINT6/XTAL1/TOSC1)" pad="9"/>
+<connect gate="G$1" pin="PB7(PCINT7/XTAL2/TOSC2)" pad="10"/>
+<connect gate="G$1" pin="PC0(ADC0/PCINT8)" pad="23"/>
+<connect gate="G$1" pin="PC1(ADC1/PCINT9)" pad="24"/>
+<connect gate="G$1" pin="PC2(ADC2/PCINT10)" pad="25"/>
+<connect gate="G$1" pin="PC3(ADC3/PCINT11)" pad="26"/>
+<connect gate="G$1" pin="PC4(ADC4/SDA/PCINT12)" pad="27"/>
+<connect gate="G$1" pin="PC5(ADC5/SCL/PCINT13)" pad="28"/>
+<connect gate="G$1" pin="PC6(PCINT14/!RESET!)" pad="1"/>
+<connect gate="G$1" pin="PD0(PCINT16/RXD)" pad="2"/>
+<connect gate="G$1" pin="PD1(PCINT17/TXD)" pad="3"/>
+<connect gate="G$1" pin="PD2(PCINT18/INT0)" pad="4"/>
+<connect gate="G$1" pin="PD3(PCINT19/OC2B/INT1)" pad="5"/>
+<connect gate="G$1" pin="PD4(PCINT20/XCK/T0)" pad="6"/>
+<connect gate="G$1" pin="PD5(PCINT21/OC0B/T1)" pad="11"/>
+<connect gate="G$1" pin="PD6(PCINT22/OC0A/AIN0)" pad="12"/>
+<connect gate="G$1" pin="PD7(PCINT23/AIN1)" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="Microchip Technology"/>
+<attribute name="Description" value="
+MCU, 8BIT, ATMEGA, 20MHZ, DIP-28; Product Range:AVR ATmega Family ATmega328 Series Microcontrollers; CPU Speed:20MHz; Program Memory Size:32KB; RAM Memory Size:2KB; No. of Pins:28Pins; MCU Case Style:DIP; No. of I/O's:23I/O's; Embedded Interface Type:I2C, SPI, UART; Supply Voltage Min:1.8V; Supply Voltage Max:5.5V; MCU Family:AVR ATmega; MCU Series:ATmega328; Automotive Qualification Standard:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (27-Jun-2018); Controller Family/Series:ATmega; EEPROM Memory Size:1KB; MPU Core Size:8bit; No. of PWM Channels:6; No. of Timers:3; Operating Temperature Max:85°C; Operating Temperature Min:-40°C; Operating Temperature Range:-40°C to +85°C; Oscillator Type:External, Internal; Peripherals:ACMP, ADC, POR, PWM, RTC; Program Memory Size:32KB; Supply Voltage Range:1.8V to 5.5V
+"/>
+<attribute name="Package" value="DIP-28 Microchip Technology"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/ATMEGA328PU/?ref=eda"/>
+<attribute name="MP" value="ATMEGA328PU"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
